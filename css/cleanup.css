@@ -1,1 +1,40 @@
-/* write your override styles here */
+/* Cleanup CSS to remove graffiti from the wall
+   Each selector below overrides the graffiti tags that were painted
+   on the wall. By using #wall .tag-x instead of just .tag-x, we make
+   the selector more specific and successfully hide the graffiti. */
+
+/* Hide tag 1 */
+#wall .tag-1 {
+  display: none;
+}
+
+/* Hide tag 2 */
+#wall .tag-2 {
+  display: none;
+}
+
+/* Hide tag 3 */
+#wall .tag-3 {
+  display: none;
+}
+
+/* Hide tag 4 */
+#wall .tag-4 {
+  display: none;
+}
+
+/* Hide tag 5 */
+#wall .tag-5 {
+  display: none;
+}
+
+/* Hide tag 6 */
+#wall .tag-6 {
+  display: none;
+}
+
+/* Hide tag 7 */
+#wall .tag-7 {
+  display: none;
+}
+
